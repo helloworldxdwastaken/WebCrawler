@@ -59,7 +59,7 @@ def crawl_and_save(base_url, start_page, output_file="Documentation.md"):
     save_to_md(output_file, content)
     print(f"Documentation saved to {output_file}")
 
-# Example usage:
+# Update these with ur website:
 base_url = "https://docs.openwebui.com"  # Replace with the base URL of the site
 start_page = "/getting-started"          # Starting page relative to the base URL
 output_file = "Open_WebUI_Documentation.md"
